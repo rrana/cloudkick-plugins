@@ -2,6 +2,7 @@
 
 import sys, os, time
 
+#SET The maximum log freshness time here
 DEFAULT_AGE=600
 
 def check_logs(*logs):
