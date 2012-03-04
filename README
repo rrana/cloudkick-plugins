@@ -1,0 +1,4 @@
+Cloudkick plugins should be placed at /usr/lib/cloudkick-agent/plugins/ location. 
+
+Plugin output format is described at Cloudkick site:
+https://support.cloudkick.com/Creating_a_Plugin
