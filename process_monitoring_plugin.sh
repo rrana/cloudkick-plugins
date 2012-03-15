@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Name of the process to be monitored
-PROCESS_NAME="mongo"
+PROCESS_NAME="mongod"
 
 NUM_PROCESSES=`ps ax | grep "$PROCESS_NAME" | grep -v grep | wc -l`
 
