@@ -3,7 +3,7 @@
 import sys, os, time
 
 #SET The maximum log freshness time here
-DEFAULT_AGE=7200    #for prod-celery-clustering-1 it's 12 min
+DEFAULT_AGE=720    #for prod-celery-clustering-1 it's 12 min
 
 def check_logs(*logs):
   out = []
